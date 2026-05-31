@@ -28,9 +28,7 @@ func main() {
         AllowMethods: "GET, POST, PUT, DELETE, OPTIONS",
     }))
 
-    app.Options("/*", func(c *fiber.Ctx) error {
-        return c.SendStatus(204)
-    })
+   
 
     port := os.Getenv("PORT")
     if port == "" {
