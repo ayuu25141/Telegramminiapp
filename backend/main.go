@@ -25,7 +25,7 @@ func main() {
 app.Use(cors.New(cors.Config{
     AllowOrigins: "*",
     AllowMethods: "GET,POST,PUT,DELETE,OPTIONS",
-AllowHeaders: "Content-Type, x-session-token, x-telegram-id"
+AllowHeaders: "Content-Type, x-session-token, x-telegram-id",
 }))
 
    
