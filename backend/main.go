@@ -48,7 +48,7 @@ err != nil{
 }
 fmt.Println("db connected successfuly")
 
-go bot.Botii()
+bot.Botii()
 	app.Get("/", func(c *fiber.Ctx) error {
 		return c.SendString("Backend Running")
 	})
