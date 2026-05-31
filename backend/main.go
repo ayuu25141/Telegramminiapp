@@ -1,19 +1,19 @@
-// package main
+package main
 
-// import (
-// 	"fmt"
-// 	"log"
-// 	"os"
-// 	"teleminiapp/api"
-// 	"teleminiapp/bot"
-// 	"teleminiapp/dbconnection"
-// 	"teleminiapp/protection"
-// 	"teleminiapp/verifyapi"
+import (
+	"fmt"
+	"log"
+	"os"
+	"teleminiapp/api"
+	"teleminiapp/bot"
+	"teleminiapp/dbconnection"
+	"teleminiapp/protection"
+	"teleminiapp/verifyapi"
 
-// 	"github.com/gofiber/fiber/v2"
-// 	"github.com/gofiber/fiber/v2/middleware/cors"
-// 	"github.com/joho/godotenv"
-// )
+	"github.com/gofiber/fiber/v2"
+	"github.com/gofiber/fiber/v2/middleware/cors"
+	"github.com/joho/godotenv"
+)
 
 // func main() {
 // port := os.Getenv("PORT")
