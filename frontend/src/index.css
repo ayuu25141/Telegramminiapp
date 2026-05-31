@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+/* styles/global.css or index.css */
+body {
+  background-color: #121212; /* Dark background color */
+  color: #ffffff; /* Light text for contrast */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
