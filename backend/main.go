@@ -16,12 +16,13 @@ import (
 )
 
 func main() {
-		// Load .env file
-if err := godotenv.Load(); err != nil {
-    log.Println("⚠️ .env not found, using system environment variables")
+port := os.Getenv("PORT")
+
+if port == "" {
+    port = "8080"
 }
 
-port := os.Getenv("Port")
+log.Fatal(app.Listen(":" + port))
 
 app := fiber.New()
 app.Use(cors.New(cors.Config{
