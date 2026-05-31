@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API =  axios.create({
-    baseURL: "https://adamo-47-15-118-72.run.pinggy-free.link",
+    baseURL: "https://telegramminiapp-1-1bd2.onrender.com",
     headers:{
         "Content-Type":"application/json"
     }
